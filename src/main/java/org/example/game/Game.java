@@ -54,7 +54,7 @@ public class Game {
         roundCount++;
         System.out.println("Раунд: " + roundCount);
           String hiddenWord = dictionary.getHiddenWord();
-        System.out.println(hiddenWord); //для отладки
+
           hidingLetters(hiddenWord);
         System.out.println(maskedChar);
         guessingLetters(hiddenWord);
